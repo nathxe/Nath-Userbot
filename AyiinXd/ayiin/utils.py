@@ -7,7 +7,6 @@
 import asyncio
 import importlib
 import logging
-import random
 import sys
 from pathlib import Path
 from random import randint
@@ -58,8 +57,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="Aʏɪɪɴ-Usᴇʀʙᴏᴛ Lᴏɢs",
-                about="» Group log Created by: Ayiin-Userbot\n\n» Support : @AyiinXdSupport\n» Support: @AyiinSupport",
+                title="Nath-Userbot Logs",
+                about="» Group log Created by: Nath-Userbot\n\n» Support : @tuanmahkamah\n» Support : @nathaellxx",
                 megagroup=True,
             ),
         )
@@ -77,7 +76,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/b88d710cee9a6d6783abc.jpg", "photoyins.jpg"
+            "https://telegra.ph/file/17dbf290bbadaf6290806.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -106,7 +105,7 @@ async def autobot():
     if who.username:
         username = f"{who.username}_bot"
     else:
-        username = f"Ayiin{(str(who.id))[5:]}bot"
+        username = f"nath{(str(who.id))[5:]}bot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -133,19 +132,13 @@ async def autobot():
                 "Silakan buat Bot dari @BotFather dan tambahkan tokennya di var BOT_TOKEN"
             )
             sys.exit(1)
-    filogo = random.choice(
-          [
-              "https://telegra.ph/file/2127175807fe36f6a40f1.jpg",
-              "AyiinXd/resources/logo.jpg",
-          ]
-    )
     await bot.send_message(bf, username)
     await asyncio.sleep(1)
     isdone = (await bot.get_messages(bf, limit=1))[0].text
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = f"Ayiin{(str(who.id))[6:]}{str(ran)}bot"
+        username = f"nath{(str(who.id))[6:]}{str(ran)}bot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -161,7 +154,7 @@ async def autobot():
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
-            await bot.send_file(bf, filogo)
+            await bot.send_file(bf, "AyiinXd/resources/IMG_20220721_182252_897.jpg")
             await asyncio.sleep(3)
             await bot.send_message(bf, "/setabouttext")
             await asyncio.sleep(1)
@@ -174,7 +167,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @AyiinSupport ✨"
+                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @soasiklo22 ✨"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -205,7 +198,7 @@ async def autobot():
         await asyncio.sleep(1)
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
-        await bot.send_file(bf, filogo)
+        await bot.send_file(bf, "AyiinXd/resources/IMG_20220721_182252_897.jpg")
         await asyncio.sleep(3)
         await bot.send_message(bf, "/setabouttext")
         await asyncio.sleep(1)
@@ -218,7 +211,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @AyiinSupport ✨"
+            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @nathaellxx ✨"
         )
         await bot.send_message(
             BOTLOG_CHATID,
