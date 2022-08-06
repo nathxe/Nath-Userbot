@@ -8,7 +8,7 @@ RUN git clone -b Nath-Userbot https://github.com/nathxe/Nath-Userbot /home/nathu
     && chmod 777 /home/nathuserbot \
     && mkdir /home/nathuserbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/alxeluserbot/
+COPY ./sample_config.env ./config.env* /home/nathuserbot/
 
 WORKDIR /home/nathuserbot/
 
