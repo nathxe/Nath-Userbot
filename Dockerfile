@@ -4,7 +4,7 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Nath-Userbot https://github.com/nathxe/Nath-Userbot /home/nathuserbot/ \
+RUN git clone -b nath-Userbot https://github.com/nathxe/Nath-Userbot /home/nathuserbot/ \
     && chmod 777 /home/alxeluserbot \
     && mkdir /home/nathuserbot/bin/
 
