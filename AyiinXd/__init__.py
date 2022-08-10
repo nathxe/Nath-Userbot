@@ -167,7 +167,7 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "tuanmahkamah")
+GROUP = os.environ.get("GROUP", "nathsupport")
 CHANNEL = os.environ.get("CHANNEL", "nathaellxx")
 
 # Heroku Credentials for updater.
@@ -734,18 +734,18 @@ with bot:
                 result = builder.article(
                     title="Repository",
                     description="Repository Nath - Userbot",
-                    url="https://t.me/tuanmahkamah",
+                    url="https://t.me/nathsupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**Nath-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **𝚁𝙴𝙿𝙾 :** [NATH](https://t.me/im_el69)\n㋭ **𝚂𝚄𝙿𝙿𝙾𝚁𝚃 :** @tuanmahkamah\n㋭ **𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈 :** [Nath-Userbot](https://github.com/nathxe/Nath-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Nath-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **𝚁𝙴𝙿𝙾 :** [NATH](https://t.me/im_el69)\n㋭ **𝚂𝚄𝙿𝙿𝙾𝚁𝚃 :** @nathsupport\n㋭ **𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈 :** [Nath-Userbot](https://github.com/nathxe/Nath-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/tuanmahkamah"),
+                                "https://t.me/nathsupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/nathxe/Nath-Userbot"),
@@ -757,7 +757,7 @@ with bot:
                 result = builder.article(
                     title="String",
                     description="String Nath - Userbot",
-                    url="https://t.me/tuanmahkamah",
+                    url="https://t.me/nathsupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -774,7 +774,7 @@ with bot:
                                 url="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
                         ],
                         [
-                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/tuanmahkamah"),
+                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/nathsupport"),
                         ],
                     ],
                     link_preview=False,
@@ -796,7 +796,7 @@ with bot:
                 result = builder.article(
                     title="Lang",
                     description="Lang Nath - Userbot",
-                    url="https://t.me/tuanmahkamah",
+                    url="https://t.me/nathsupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -853,7 +853,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/tuanmahkamah"),
+                                "https://t.me/nathsupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/nathxe/Nath-Userbot"),
