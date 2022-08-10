@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/17dbf290bbadaf6290806.jpg">
+  <img src="https://telegra.ph/file/8ba65164676668aa54abe.jpg">
 </p>
 
 👩‍💻 Nath-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
@@ -85,7 +85,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [@abcdkeentoy @nathaellxx](https://t.me/im_el69) untuk info Update bot dan Gabung Group [@tuanmahkamah](https://t.me/tuanmahkamah) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Nath-Userbot.
+Follow Channel [@abcdkeentoy @nathaellxx](https://t.me/im_el69) untuk info Update bot dan Gabung Group [@nathsupport](https://t.me/nathsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Nath-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
