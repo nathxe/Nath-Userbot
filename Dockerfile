@@ -4,13 +4,13 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b ALxEL-Userbot https://github.com/nathaelxx/ALxEL-Userbot /home/alxeluserbot/ \
+RUN git clone -b Nath-Userbot https://github.com/nathxe/Nath-Userbot /home/nathuserbot/ \
     && chmod 777 /home/alxeluserbot \
-    && mkdir /home/alxeluserbot/bin/
+    && mkdir /home/nathuserbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/alxeluserbot/
+COPY ./sample_config.env ./config.env* /home/nathuserbot/
 
-WORKDIR /home/alxeluserbot/
+WORKDIR /home/nathuserbot/
 
 RUN pip install -r requirements.txt
 
