@@ -842,7 +842,7 @@ with bot:
                 result = builder.article(
                     title="✨ 𝙽𝙰𝚃𝙷-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✨",
                     description="𝙽𝙰𝚃𝙷 - Userbot | Telethon",
-                    url="https://t.me/nathaellx",
+                    url="https://t.me/nathaellxx",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
