@@ -842,13 +842,13 @@ with bot:
                 result = builder.article(
                     title="✨ 𝙽𝙰𝚃𝙷-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✨",
                     description="𝙽𝙰𝚃𝙷 - Userbot | Telethon",
-                    url="https://t.me/Soasiklo22",
+                    url="https://t.me/nathaellx",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Nath-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **𝚁𝙴𝙿𝙾 :** [{user.first_name}](tg://user?id={user.id})\n✧ **𝙰𝚂𝙸𝚂𝚂𝚃𝙰𝙽𝚃:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**𝚄𝙿𝙳𝙰𝚃𝙴𝚂 :** @Soasiklo22\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**Nath-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **𝚁𝙴𝙿𝙾 :** [{user.first_name}](tg://user?id={user.id})\n✧ **𝙰𝚂𝙸𝚂𝚂𝚃𝙰𝙽𝚃:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**𝚄𝙿𝙳𝙰𝚃𝙴𝚂 :** @nathaellxx\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
