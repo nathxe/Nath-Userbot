@@ -18,9 +18,9 @@ from AyiinXd.ayiin import ayiin_version as py_ver
 from AyiinXd.ayiin import HOSTED_ON, checking
 
 MSG_ON = """
-❏ ᴀʏɪɪɴ - ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
+❏ 𝙽𝙰𝚃𝙷-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
 ╭╼┅━━━━━╍━━━━━┅╾
-├▹ Aʏɪɪɴ Vᴇʀsɪᴏɴ - {} •[{}]•
+├▹ 𝙽𝙰𝚃𝙷 Vᴇʀsɪᴏɴ - {} •[{}]•
 ├▹ Usᴇʀʙᴏᴛ Vᴇʀsɪᴏɴ - {}
 ├▹ @{}
 ├▹ Kᴇᴛɪᴋ {}alive Uɴᴛᴜᴋ Mᴇɴɢᴇᴄᴇᴋ Bᴏᴛ
