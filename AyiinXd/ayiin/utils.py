@@ -7,6 +7,7 @@
 import asyncio
 import importlib
 import logging
+import random
 import sys
 from pathlib import Path
 from random import randint
@@ -58,7 +59,7 @@ async def autopilot():
         r = await bot(
             CreateChannelRequest(
                 title="Nath-Userbot Logs",
-                about="» Group log Created by: Nath-Userbot\n\n» Support : @nathsupport\n» Support : @nathaellxx",
+                about="» Group log Created by: Nath-Userbot\n\n» Support : @nathsupport\n» Support: @nathsupport",
                 megagroup=True,
             ),
         )
@@ -132,6 +133,12 @@ async def autobot():
                 "Silakan buat Bot dari @BotFather dan tambahkan tokennya di var BOT_TOKEN"
             )
             sys.exit(1)
+    filogo = random.choice(
+          [
+              "https://telegra.ph/file/17dbf290bbadaf6290806.jpg",
+              "AyiinXd/resources/logo.jpg",
+          ]
+    )
     await bot.send_message(bf, username)
     await asyncio.sleep(1)
     isdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -154,7 +161,7 @@ async def autobot():
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
-            await bot.send_file(bf, "AyiinXd/resources/IMG_20220721_182252_897.jpg")
+            await bot.send_file(bf, filogo)
             await asyncio.sleep(3)
             await bot.send_message(bf, "/setabouttext")
             await asyncio.sleep(1)
@@ -167,7 +174,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @soasiklo22 ✨"
+                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @AyiinSupport ✨"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -198,7 +205,7 @@ async def autobot():
         await asyncio.sleep(1)
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
-        await bot.send_file(bf, "AyiinXd/resources/IMG_20220721_182252_897.jpg")
+        await bot.send_file(bf, filogo)
         await asyncio.sleep(3)
         await bot.send_message(bf, "/setabouttext")
         await asyncio.sleep(1)
