@@ -94,7 +94,7 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/AyiinXd/Reforestation/master/DEVS.json"
+        "https://raw.githubusercontent.com/nathxe/NathR/master/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
