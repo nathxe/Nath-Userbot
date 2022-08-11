@@ -77,7 +77,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/17dbf290bbadaf6290806.jpg", "photoyins.jpg"
+            "https://telegra.ph/file/8ba65164676668aa54abe.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -135,7 +135,7 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph/file/17dbf290bbadaf6290806.jpg",
+              "https://telegra.ph/file/8ba65164676668aa54abe.jpg",
               "AyiinXd/resources/logo.jpg",
           ]
     )
