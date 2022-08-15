@@ -58,7 +58,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    await Ayiin.edit("⚡")
+    await Ayiin.edit("🥶")
     sleep(3)
     await Ayiin.edit(
         f"**✧ 𝙽𝙰𝚃𝙷-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**\n\n"
