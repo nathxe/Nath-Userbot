@@ -50,7 +50,7 @@ async def ayiin_userbot_on():
         if bot and tgbot:
             AyiinUBOT = await tgbot.get_me()
             BOT_USERNAME = AyiinUBOT.username
-            await bot(EditAdminRequest(BOTLOG_CHATID, BOT_USERNAME, new_rights, "Assɪsᴛᴀɴᴛ Aʏɪɪɴ"))
+            await bot(EditAdminRequest(BOTLOG_CHATID, BOT_USERNAME, new_rights, "𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙽𝙰𝚃𝙷"))
             await asyncio.sleep(3)
     except BaseException:
         pass
