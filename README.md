@@ -1,11 +1,11 @@
  <h1 align="center">𝙽𝙰𝚃𝙷-𝚄𝚂𝙴𝚁𝙱𝙾𝚃</h1>
 
-<a href="https://github.com/inisenja/Senja-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/inisenja/Senja-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/inisenja/Senja-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/inisenja/Senja-Userbot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/inisenja/Senja-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/inisenja/Senja-Userbot?&logo=github)](https://github.com/inisenja/Senja-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/inisenja/Senja-Userbot?&logo=github)](https://github.com/inisenja/Senja-Userbot/stargazers)
+<a href="https://github.com/nathxe/Nath-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/nathxe/Nath-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/nathxe/Nath-Userbot)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/nathxe/Nath-Userbot/graphs/commit-activity)
+[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/nathxe/Nath-Userbot/dashboard)
+[![GitHub Forks](https://img.shields.io/github/forks/nathxe/Nath-Userbot?&logo=github)](https://github.com/nathxe/Nath-Userbot/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/nathxe/Nath-Userbot?&logo=github)](https://github.com/nathxe/Nath-Userbot/stargazers)
 
 
 <p align="center">
@@ -99,16 +99,18 @@ Follow Channel [@abcdkeentoy @nathaellxx](https://t.me/im_el69) untuk info Updat
 -  [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
 -  [AyiinXd](https://github.com/AyiinXd/Ayiin-Userbot) : Ayiin-Userbot
 -  [AlxEl](https://github.com/nathaelxx/AlxEl-Userbot) : AlxEl-Userbot
+-  [EL](https://github.com/nathxe/Nath-Userbot) : Nath-Userbot
 
 ## © Credits
 -  [Laky-64](https://github.com/Laky-64) for [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
 -  [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)
 -  [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
 -  [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
--  [nathaelxx](https://github.com/nathaelxx) for [AlxEl-Userbot](https://github.com/AlxEl/AlxEl-Userbot)
+-  [Nathaell](https://github.com/nathaelxx) for [AlxEl-Userbot](https://github.com/AlxEl/AlxEl-Userbot)
+-  [EL](https://github.com/nathxe) for [Nath-Userbot](https://github.com/nathxe/Nath-Userbot)
 
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/nathaelxx/AlxEl-Userbot/blob/AlxEl-Userbot/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/nathxe/Nath-Userbot/blob/Nath-Userbot/LICENSE) - Version 1.d, Agustus 2022
 
 
