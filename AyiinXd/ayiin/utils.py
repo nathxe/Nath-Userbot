@@ -59,7 +59,7 @@ async def autopilot():
         r = await bot(
             CreateChannelRequest(
                 title="Nath-Userbot Logs",
-                about="» Group log Created by: Nath-Userbot\n\n» Support : @nathsupport\n» Support: @nathsupport",
+                about="» Group log Created by: Nath-Userbot\n\n» Support : @nathsupport\n» Channel: @nathaellxx",
                 megagroup=True,
             ),
         )
@@ -77,7 +77,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/8ba65164676668aa54abe.jpg", "photoyins.jpg"
+            "https://telegra.ph/file/0b68fb7914d940131d2a9.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -135,7 +135,7 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph/file/8ba65164676668aa54abe.jpg",
+              "https://telegra.ph/file/0b68fb7914d940131d2a9.jpg",
               "AyiinXd/resources/logo.jpg",
           ]
     )
