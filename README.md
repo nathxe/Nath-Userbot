@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/8ba65164676668aa54abe.jpg">
+  <img src="https://telegra.ph/file/0b68fb7914d940131d2a9.jpg">
 </p>
 
 👩‍💻 Nath-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
