@@ -47,7 +47,7 @@ async def _(ayiin):
 
 CMD_HELP.update(
     {
-        "yinsbokep": f"**Plugin :** `yinsbokep`\
+        "nathbokep": f"**Plugin :** `nathbokep`\
         \n\n  »  **Perintah :** {cmd}bokp\
         \n  »  **Kegunaan : **Untuk Mengirim bokp secara random.\
     "
