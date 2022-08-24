@@ -598,7 +598,7 @@ with bot:
         logoyins = random.choice(
                 [
                     "https://telegra.ph/file/698208cb3fd14c024d0f0.jpg",
-                    "https://telegra.ph/file/527e0d25f985ada96b325.jpg",
+                    "https://telegra.ph/file/d4c5d9b06e066ae3ab9e7.jpg",
                     "https://telegra.ph/file/698208cb3fd14c024d0f0.jpg",
                     "https://telegra.ph/file/d4c5d9b06e066ae3ab9e7.jpg",
                 ]
