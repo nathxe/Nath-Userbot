@@ -846,7 +846,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Nath-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **𝚁𝙴𝙿𝙾 :** [{user.first_name}](tg://user?id={user.id})\n✧ **𝙰𝚂𝙸𝚂𝚂𝚃𝙰𝙽𝚃:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**𝚄𝙿𝙳𝙰𝚃𝙴𝚂 :** @nathaellxx\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**Nath-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **𝙾𝚆𝙽𝙴𝚁 :** [{user.first_name}](tg://user?id={user.id})\n✧ **𝙰𝚂𝙸𝚂𝚂𝚃𝙰𝙽𝚃:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**𝚄𝙿𝙳𝙰𝚃𝙴𝚂 :** @nathaellxx\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
