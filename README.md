@@ -47,9 +47,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/inisenja/Senja-Userbot`
+ • `git clone https://github.com/nathxe/Nath-Userbot`
 
- • `cd Senja-Userbot`
+ • `cd Nath-Userbot`
 
  • `pip3 install -U -r requirements.txt`
 
