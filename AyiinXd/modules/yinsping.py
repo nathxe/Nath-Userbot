@@ -50,7 +50,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    message = "**✯ 𝙽𝙰𝚃𝙷-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✯**\n\n✯ **ᴘɪɴɢᴇʀ :** `{} ms`\n✯ **ᴜᴘᴛɪᴍᴇ :** `{}`\n✯ **ᴏᴡɴᴇʀ :** `{}`\n✯ **ɪᴅ :** `{}`"
+    message = "**✯ 𝖓𝖆𝖙𝖍-𝖚𝖘𝖊𝖗𝖇𝖔𝖙 ✯**\n\n✯ **𝖕𝖎𝖓𝖌𝖊𝖗 :** `{} ms`\n✯ **𝖚𝖕𝖙𝖎𝖒𝖊 :** `{}`\n✯ **𝖔𝖜𝖓𝖊𝖗 :** `{}`\n✯ **𝖎𝖉 :** `{}`"
     await ping.reply(message.format(duration, uptime, user.first_name, user.id)
                      )
 
