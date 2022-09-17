@@ -373,10 +373,10 @@ ungban_3: "`Gagal Membatalkan Perintah Larangan Global... Karena Dia Ada Di Daft
 ungban_4: "**\\#𝙐𝙣𝙂𝙗𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧//**\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙐𝙣𝙂𝙡𝙤𝙗𝙖𝙡 𝘽𝙖𝙣𝙣𝙚𝙙`\n**𝙐𝙣𝙂𝙗𝙖𝙣𝙣𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✩ 𝙽𝙰𝚃𝙷-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✩**"
 
 # gcast tools
-gcast_1: "**Berikan Sebuah Pesan atau Reply**"
-gcast_2: "**Berhasil Mengirim Pesan Ke** {} **Grup Tod.**\n**Sorry Tod Gagal Mengirim Pesan Ke** {} **Grup.**"
-gcast_3: "`Sedang Mengirim Mohon Bersabar... Kalo Limit Jangan Salahin Saya...`"
-gucast_1: "**Berhasil Mengirim Pesan Ke** {} **Chat Tod.**\n**Sorry Tod Gagal Mengirim Pesan Ke** {} **Chat.**"
+gcast_1: "**Berikan Sebuah Pesan atau Reply Tolol**"
+gcast_2: "**Berhasil Mengirim Pesan Kontol Ke** {} **Grup Ntol.**\n**Sorry Ntol Gagal Mengirim Pesan Ke** {} **Grup.**"
+gcast_3: "`Sedang Mengirim Mohon Bersabar Yaa Kentod... Kalo Limit Jangan Salahin Saya Yaa Kentod...`"
+gucast_1: "**Berhasil Mengirim Pesan Ke** {} **Chat Tod.**\n**Sorry Ntol Gagal Mengirim Pesan Ke** {} **Chat.**"
 blkls_1: "**🔮 Blacklist GCAST:** `Enabled`\n\n📚 **Blacklist Group:**\n» {}\n\nKetik `{}addblacklist` di grup yang ingin anda tambahkan ke daftar blacklist gcast."
 blkls_2: "**🔮 Blacklist GCAST:** `Disabled`"
 addbl_1: "**Silahkan Tambahkan Var** `HEROKU_APP_NAME` **untuk {} blacklist**"
