@@ -61,12 +61,12 @@ async def _(ping):
 
 # Absen by : mrismanaziz <https://github.com/mrismanaziz/man-userbot>
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Absen$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Dorr$")
 async def nathabsen(ganteng):
     await ganteng.reply(choice(absen))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Aku ganteng kan$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Nath ganteng kan$")
 async def nath(ganteng):
     await ganteng.reply(choice(nathcakep))
 
