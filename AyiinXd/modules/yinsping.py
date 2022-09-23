@@ -29,7 +29,7 @@ absen = [
     "**𝙃𝙖𝙙𝙞𝙧 𝙆𝙖𝙠𝙖 𝙂𝙖𝙣𝙩𝙚𝙣𝙜** 😉",
     "**𝙂𝙪𝙖 𝙃𝙖𝙙𝙞𝙧 𝘾𝙤𝙣𝙩𝙤𝙡** 😁",
     "**𝙂𝙪𝙖 𝙃𝙖𝙙𝙞𝙧 𝙂𝙖𝙣𝙩𝙚𝙣𝙜** 🥵",
-    "**𝙃𝙖𝙙𝙞𝙧 𝙉𝙜𝙖𝙗** 😎",
+    "**𝙃𝙖𝙙𝙞𝙧 𝙉𝙜𝙖𝙗 𝙀𝙡𝙡** 😎",
     "**𝙂𝙪𝙖 𝙃𝙖𝙙𝙞𝙧 𝘼𝙗𝙖𝙣𝙜** 🥺",
     "**𝙎𝙞 𝘾𝙖𝙠𝙚𝙥 𝙃𝙖𝙙𝙞𝙧 𝘽𝙖𝙣𝙜** 😎",
 ]
@@ -62,13 +62,13 @@ async def _(ping):
 # Absen by : mrismanaziz <https://github.com/mrismanaziz/man-userbot>
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Absen$")
-async def ayiinabsen(ganteng):
+async def nathabsen(ganteng):
     await ganteng.reply(choice(absen))
 
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Aku ganteng kan$")
-async def ayiin(ganteng):
-    await ganteng.reply(choice(ayiincakep))
+async def nath(ganteng):
+    await ganteng.reply(choice(nathcakep))
 
 
 # ========================×========================
@@ -79,7 +79,7 @@ async def ayiin(ganteng):
 CMD_HELP.update(
     {
         "yinsping": f"**Plugin:** `yinsping`\
-        \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs Ayiin-Userbot Tod.`\
+        \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs Nath-Userbot Tod.`\
         \n  »  **Kegunaan :** __Silahkan Ketik `{cmd}ping` Untuk Publik.__\
     "
     }
