@@ -187,19 +187,19 @@ async def amireallyalive(alive):
     await alive.edit("😈")
     await asyncio.sleep(3)
     output = (
-        f"**Tʜᴇ [𝙽𝙰𝚃𝙷-Usᴇʀʙᴏᴛ](https://github.com/nathxe/Nath-Userbot)**\n\n"
+        f"**𝖙𝖍𝖊 [𝖓𝖆𝖙𝖍-𝖚𝖘𝖊𝖗𝖇𝖔𝖙](https://github.com/nathxe/Nath-Userbot)**\n\n"
         f"**{alive_text}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
-        f"{emoji} **Bᴀsᴇ Oɴ :** ••{adB.name}••\n"
-        f"{emoji} **Oᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id}) \n"
-        f"{emoji} **Mᴏᴅᴜʟᴇs :** `{len(modules)} Modules` \n"
-        f"{emoji} **Bᴏᴛ Vᴇʀsɪᴏɴ :** `{BOT_VER}` \n"
-        f"{emoji} **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{python_version()}` \n"
-        f"{emoji} **PʏTɢCᴀʟʟs Vᴇʀsɪᴏɴ :** `{pytgcalls.__version__}` \n"
-        f"{emoji} **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version.__version__}` \n"
-        f"{emoji} **Pʏ-𝙽𝙰𝚃𝙷 Vᴇʀsɪᴏɴ :** `{py_ver}`\n"
-        f"{emoji} **𝙽𝙰𝚃𝙷 Vᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
-        f"{emoji} **Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
+        f"{emoji} **𝖇𝖆𝖘𝖊 𝖔𝖓 :** ••{adB.name}••\n"
+        f"{emoji} **𝖔𝖜𝖓𝖊𝖗 :** [{user.first_name}](tg://user?id={user.id}) \n"
+        f"{emoji} **𝖒𝖔𝖉𝖚𝖑𝖊𝖘 :** `{len(modules)} Modules` \n"
+        f"{emoji} **𝖇𝖔𝖙 𝖛𝖊𝖗𝖘𝖎𝖔𝖓 :** `{BOT_VER}` \n"
+        f"{emoji} **𝖕𝖍𝖞𝖙𝖔𝖓 𝖛𝖊𝖗𝖘𝖎𝖔𝖓 :** `{python_version()}` \n"
+        f"{emoji} **𝖕𝖞𝖙𝖌𝖈𝖆𝖑𝖘 𝖛𝖊𝖗𝖘𝖎𝖔𝖓 :** `{pytgcalls.__version__}` \n"
+        f"{emoji} **𝖙𝖊𝖑𝖊𝖙𝖍𝖔𝖓 𝖛𝖊𝖗𝖘𝖎𝖔𝖓 :** `{version.__version__}` \n"
+        f"{emoji} **𝖕𝖞-𝖓𝖆𝖙𝖍 𝖛𝖊𝖗𝖘𝖎𝖔𝖓 :** `{py_ver}`\n"
+        f"{emoji} **𝖓𝖆𝖙𝖍 𝖛𝖊𝖗𝖘𝖎𝖔𝖓 :** `{ayiin_version}` [{HOSTED_ON}]\n"
+        f"{emoji} **𝖇𝖔𝖙 𝖚𝖕𝖙𝖎𝖒𝖊 :** `{uptime}`\n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
     )
     if ALIVE_LOGO:
