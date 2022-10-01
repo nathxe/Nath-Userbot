@@ -131,7 +131,7 @@ BLACKLIST_GCAST = {
 # For Blacklist Group Support
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283, -1001675396283, -1001792278883, -1001654329223]
+    BLACKLIST_CHAT = [-1001473548283, -1001675396283, -1001792278883, -1001533367484]
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or 0)
@@ -304,8 +304,8 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("aHR0cHM6Ly90Lm1lL25hdGhhZWxseHg="))[2:15]
-gc = str(b64decode("aHR0cHM6Ly90Lm1lL25hdGhzdXBwb3J0"))[2:16]
+ch = str(b64decode("QG5hdGhhZWxseHg="))[2:15]
+gc = str(b64decode("QG5hdGhzdXBwb3J0"))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
