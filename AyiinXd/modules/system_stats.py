@@ -190,17 +190,15 @@ async def amireallyalive(alive):
         f"**𝖙𝖍𝖊 [𝖓𝖆𝖙𝖍-𝖚𝖘𝖊𝖗𝖇𝖔𝖙](https://github.com/nathxe/Nath-Userbot)**\n\n"
         f"**{alive_text}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
-        f"{emoji} **𝖇𝖆𝖘𝖊 𝖔𝖓 :** ••{adB.name}••\n"
         f"{emoji} **𝖔𝖜𝖓𝖊𝖗 :** [{user.first_name}](tg://user?id={user.id}) \n"
         f"{emoji} **𝖒𝖔𝖉𝖚𝖑𝖊𝖘 :** `{len(modules)} Modules` \n"
         f"{emoji} **𝖇𝖔𝖙 𝖛𝖊𝖗𝖘𝖎𝖔𝖓 :** `{BOT_VER}` \n"
         f"{emoji} **𝖕𝖍𝖞𝖙𝖔𝖓 𝖛𝖊𝖗𝖘𝖎𝖔𝖓 :** `{python_version()}` \n"
-        f"{emoji} **𝖕𝖞𝖙𝖌𝖈𝖆𝖑𝖘 𝖛𝖊𝖗𝖘𝖎𝖔𝖓 :** `{pytgcalls.__version__}` \n"
         f"{emoji} **𝖙𝖊𝖑𝖊𝖙𝖍𝖔𝖓 𝖛𝖊𝖗𝖘𝖎𝖔𝖓 :** `{version.__version__}` \n"
         f"{emoji} **𝖕𝖞-𝖓𝖆𝖙𝖍 𝖛𝖊𝖗𝖘𝖎𝖔𝖓 :** `{py_ver}`\n"
-        f"{emoji} **𝖓𝖆𝖙𝖍 𝖛𝖊𝖗𝖘𝖎𝖔𝖓 :** `{ayiin_version}` [{HOSTED_ON}]\n"
         f"{emoji} **𝖇𝖔𝖙 𝖚𝖕𝖙𝖎𝖒𝖊 :** `{uptime}`\n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
+        f"    **[𝖘𝖚𝖕𝖕𝖔𝖗𝖙](https://t.me/{GROUP})** | **[𝖈𝖍𝖆𝖓𝖓𝖊𝖑](https://t.me/{CHANNEL})** | **[𝖔𝖜𝖓𝖊𝖗](tg://user?id={client.me.id})**"
     )
     if ALIVE_LOGO:
         try:
