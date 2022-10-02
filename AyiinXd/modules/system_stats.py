@@ -198,7 +198,7 @@ async def amireallyalive(alive):
         f"{emoji} **𝖕𝖞-𝖓𝖆𝖙𝖍 𝖛𝖊𝖗𝖘𝖎𝖔𝖓 :** `{py_ver}`\n"
         f"{emoji} **𝖇𝖔𝖙 𝖚𝖕𝖙𝖎𝖒𝖊 :** `{uptime}`\n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
-        f"    **[𝖘𝖚𝖕𝖕𝖔𝖗𝖙](https://t.me/{GROUP})** | **[𝖈𝖍𝖆𝖓𝖓𝖊𝖑](https://t.me/{CHANNEL})** | **[𝖔𝖜𝖓𝖊𝖗](tg://user?id={client.me.id})** \n"
+        f"**[𝖘𝖚𝖕𝖕𝖔𝖗𝖙](https://t.me/{GROUP})** | **[𝖈𝖍𝖆𝖓𝖓𝖊𝖑](https://t.me/{CHANNEL})** | **[𝖔𝖜𝖓𝖊𝖗](tg://user?id={client.me.id})** \n"
     )
     if ALIVE_LOGO:
         try:
