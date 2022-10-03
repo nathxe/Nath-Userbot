@@ -242,7 +242,7 @@ BOT_VER = os.environ.get("BOT_VER", "3.4.5")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/6ff687824dca719793d5d.jpg")
+              or "https://telegra.ph/file/698208cb3fd14c024d0f0.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
               or "https://telegra.ph/file/698208cb3fd14c024d0f0.jpg")
