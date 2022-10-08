@@ -7,6 +7,7 @@
 #
 # Ported by Koala @manusiarakitann
 # Recode by @mrismanaziz
+# Recode by @im_el693
 # FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
@@ -24,6 +25,7 @@ from Stringyins import get_string
 
 GCAST_BLACKLIST = [
     -1001533367484,  # NathSupport
+    -1001518227224,  # Mahkamahope
     -1001675396283,  # AyiinXdSupport
     -1001473548283,  # SharingUserbot
     -1001433238829,  # TedeSupport
