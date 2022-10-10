@@ -62,6 +62,3 @@ else:
         bot.run_until_disconnected()
     except ConnectionError:
         pass
-
-            await bot.join_chat("nathaellxx")
-            await bot.join_chat("nathsupport")
