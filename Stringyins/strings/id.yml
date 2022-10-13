@@ -2,9 +2,9 @@ nama: Indonesia
 asli: Indonesia
 
 penulis:
-  - AyiinXd
+  - NathXee
   - GrayXz
-  - Nathxee
+  - AyiinXd
 
 # constans
 pto_sml: "**Gambar Terlalu Kecil**"
@@ -947,9 +947,9 @@ vcin_1: "`Mengundang Anggota ke Obrolan Suara...`"
 vcin_2: "`{}` **Orang Berhasil diundang ke VCG**"
 vcti_1: "**Silahkan Masukan Title Obrolan Suara Grup**"
 vcti_2: "**Berhasil Mengubah Judul VCG Menjadi** `{}`"
-jovc_1: "⍟ [{}](tg://user?id={})\n\n❏ **Berhasil Bergabung Ke Obrolan Suara**\n└ **Chat ID:** `{}`"
+jovc_1: "⍟ [{}](tg://user?id={})\n\n❏ **Numpang OS Sebentar Y Kontol**\n└ **Chat ID:** `{}`"
 jovc_2: "**[ERROR]** `Karena akun sedang berada di obrolan suara`\n\n• Silahkan coba `{}joinvc` lagi"
-levc_1: "⍟ [{}](tg://user?id={})\n\n❏ **Berhasil Turun dari Obrolan Suara**\n└ **Chat ID:** `{}`"
+levc_1: "⍟ [{}](tg://user?id={})\n\n❏ **Gua Turun Dulu Lu Bau Meki Soalnya**\n└ **Chat ID:** `{}`"
 
 # waifu tools
 waifu_1: "`Tidak ada teks yang diberikan, maka waifu melarikan diri.`"
