@@ -62,8 +62,9 @@ async def _(ping):
 # DI HAPUS GUA GBAN YA 🥴 GUA TANDAIN LU AKUN TELENYA 😡
 
 # Absen by : mrismanaziz <https://github.com/mrismanaziz/man-userbot>
+# recode by : nathxe
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Dorr$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Jdorr$")
 async def nathabsen(ganteng):
     await ganteng.reply(choice(absen))
 
