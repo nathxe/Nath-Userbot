@@ -45,7 +45,7 @@ nathcakep = [
 ]
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Cping$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Pong$")
 async def _(ping):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
