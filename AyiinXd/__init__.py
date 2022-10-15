@@ -308,11 +308,11 @@ while 0 < 6:
 del _BLACKLIST
 
 ch = str(b64decode("QG5hdGhhZWxseHg="))[2:15]
-gc = str(b64decode("QG5hdGhzdXBwb3J0"))[2:17]
+gc = str(b64decode("QG5hdGhzdXBwb3J0"))[2:14]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/AyiinXd/Reforestation/master/whitelist.json"
+        "https://raw.githubusercontent.com/nathxe/NathR/master/whitelist.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
