@@ -64,7 +64,7 @@ async def _(ping):
 # Absen by : mrismanaziz <https://github.com/mrismanaziz/man-userbot>
 # recode by : nathxe
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Jdorr$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Duarr$")
 async def nathabsen(ganteng):
     await ganteng.reply(choice(absen))
 
